@@ -206,9 +206,9 @@ describe('Tie it all together:', () => {
         expect(randomTree.isBalanced()).toBe(false);
         randomTree.rebalance();
         expect(randomTree.isBalanced()).toBe(true);
-        console.log(`Level order: ${randomTree.levelOrder()}`);
+        /* console.log(`Level order: ${randomTree.levelOrder()}`);
         console.log(`In order: ${randomTree.inorder()}`);
         console.log(`Pre order: ${randomTree.preorder()}`);
-        console.log(`Post order: ${randomTree.postorder()}`);
+        console.log(`Post order: ${randomTree.postorder()}`); */
     });
 });
